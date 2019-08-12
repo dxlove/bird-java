@@ -14,7 +14,7 @@ public interface IEventArg extends Serializable {
     String getEventId();
 
     /**
-     * 时间发布时间
+     * 事件发布时间
      */
     Date getEventTime();
 }
